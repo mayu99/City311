@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://YOUR-BACKEND-API-URL.railway.app/api/:path*"
+    },
+    {
+      "source": "/twilio/:path*",
+      "destination": "https://YOUR-BACKEND-API-URL.railway.app/twilio/:path*"
+    }
+  ]
+}
